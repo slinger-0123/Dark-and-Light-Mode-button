@@ -1,0 +1,79 @@
+* {
+    margin : 0px;
+    padding : 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    
+}
+
+.outer {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.togglebar {
+    margin-top: 100px;
+    border: 1px solid black;
+    height: 30px;
+    width: 160px;
+    border-right: transparent;
+    border-left: transparent;
+    
+  
+}
+
+.side1 {
+    height: 30px;
+    width: 29px;
+    border: 1px solid black;
+    margin-top: 100px;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-right: transparent;
+    
+}
+
+.side2 {
+    height: 30px;
+    width: 29px;
+    border: 1px solid black;
+    margin-top: 100px;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-left: transparent;
+   
+}
+
+.text {
+    margin-top: 80px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.gola {
+    background-color: black;
+    height: 29px;
+    width: 29px;
+    border-radius: 50%;
+    margin-top: 100px;
+    padding-left: 20px;
+    position: absolute;
+    left : 0.6px;
+    
+}
+
+.gola.transition-effect {
+    
+    left: 188px;
+  }
+
+  .newproperty {
+    transition:  1s linear 0.2s;
+  }
